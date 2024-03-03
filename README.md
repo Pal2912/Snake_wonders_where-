@@ -1,5 +1,6 @@
 # Snake_wonders_where-
-Welcome to Snake Wonders Where. This project is designed to be fully responsive, ensuring an enjoyable experience. 
+Welcome to Snake Wonders Where. This project is designed to be fully responsive, ensuring an enjoyable experience.
+I am using html ,CSS,JavaScript to make this project
 How to Play:
 a.Clone the repository to your local machine.
 b.Open the index.html file in your preferred web browser.
