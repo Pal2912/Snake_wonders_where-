@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake-Wonders-where</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="mainbody">
+      <div class="levels">
+        <button class="difflevel" id="level-1" onclick="defaultspeedcase()">
+          Easy
+        </button>
+        <button class="difflevel" id="level-2" onclick="mediumspeedcase()">
+          Medium
+        </button>
+        <button class="difflevel" id="level-3" onclick="highspeedcase()">
+          Hard
+        </button>
+      </div>
+      <div class="board"></div>
+      <div class="score">
+        <p id="scoreboardbox">Score:0</p>
+      </div>
+    </div>
+  </body>
+  <script src="index.js" defer></script>
+</html>

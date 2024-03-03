@@ -1,0 +1,79 @@
+body {
+  /* background:  url("https://wallpapers.com/images/hd/snake-game-1680-x-1050-background-6syqer1fr6oahe0b.jpg") no-repeat fixed center;  */
+  /* background-image: url("https://i.pinimg.com/564x/af/8c/44/af8c444f5eafe85f981ad3533350f228.jpg"); */
+  /* background-image:url("https://i.pinimg.com/564x/26/43/6c/26436c17fc4020704511955251653bc8.jpg") no-repeat fixed center; */
+  background-color:rgb(70, 96, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 40px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.board {
+  height: 90vmin;
+  width: 90vmin;
+  /* background:linear-gradient(rgb(214, 17, 17),rgb(66, 3, 3)); */
+  background-color:rgb(70, 96, 45);
+  border: 7px dotted rgba(56, 2, 2, 0.331);
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(18, 1fr);
+}
+.head {
+  /* background: linear-gradient(rgb(240, 10, 10), rgb(50, 8, 8)); */
+  /* background: linear-gradient(rgb(110, 38, 14), rgb(0, 0, 0)); */
+  background: rgb(33, 33, 33);
+  border: 2px solid rgb(0, 0, 0);
+  transform: scale(1.02);
+  border-radius: 9px;
+}
+.snake {
+  border: 2px solid rgb(3, 3, 3);
+  transform: scale(1.02);
+  border-radius: 9px;
+  background: rgb(33, 33, 33);
+  /* background: linear-gradient(rgb(50, 8, 8), rgb(240, 10, 10)); */
+  /* background: linear-gradient(rgb(0,0, 0),rgb(110, 38, 14)); */
+}
+.food {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(14, 13, 13);
+  border-radius: 360%;
+  border: 2px solid rgb(0, 0, 0);
+}
+#scoreboardbox {
+  position: absolute;
+  top: 9px;
+  right: 100px;
+  width: 80px;
+  height: 20px;
+  border: 7px double rgba(56, 2, 2, 0.461);
+  color: rgb(12, 12, 12);
+  font-family: cursive;
+  padding: 4px;
+}
+.levels {
+  position: absolute;
+  top: 9px;
+  width: 250px;
+  height: 20px;
+  border: 7px double rgba(56, 2, 2, 0.4);
+  left: 60px;
+  padding: 4px;
+  color: rgb(8, 8, 8);
+  font-family: cursive;
+  display: flex;
+  justify-content: space-between;
+}
+.difflevel{
+    background-color: transparent;
+    color: rgb(8, 8, 8);
+    font-family: cursive;
+    border: 1px solid black;
+}
+
